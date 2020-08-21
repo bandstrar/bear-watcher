@@ -17,3 +17,9 @@ form {
 .form-group {
     margin-right: 20px;
 }
+
+#card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}

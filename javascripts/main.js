@@ -1,7 +1,8 @@
-import {bearForm} from './components/bearForm.js';
+import {bearForm, buildABear} from './components/bearForm.js';
 
 const init = () => {
     bearForm();
+    buildABear();
 }
 
 init();
