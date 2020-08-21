@@ -1,3 +1,19 @@
 body {
-    background-color: hotpink;
+    background-color: slategrey;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+form {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    margin: 20px;
+    align-items: center;
+}
+
+.form-group {
+    margin-right: 20px;
 }
