@@ -1,15 +1,3 @@
-import {bearCards} from './river.js'
-
-let bearArray = []
-
-const buildABear = () => {
-    $('#bearButton').on('click', () => {
-      bearArray.push({name: bearName.value, image: bearImage.value});
-      $('#bearCards').empty();
-      bearCards(bearArray);
-    })
-  }
-
 const bearForm = () => {
     $('#bearForm').html(
         `<form>
@@ -26,4 +14,4 @@ const bearForm = () => {
     )
 }
 
-export {bearForm, buildABear};
+export {bearForm};

@@ -1,4 +1,5 @@
-import {bearForm, buildABear} from './components/bearForm.js';
+import {bearForm} from './components/bearForm.js';
+import {buildABear} from './components/river.js';
 
 const init = () => {
     bearForm();
