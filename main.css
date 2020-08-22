@@ -1,5 +1,5 @@
 body {
-    background-color: slategrey;
+    background-color: slategray;
 }
 
 .btn {
@@ -9,11 +9,36 @@ body {
 form {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: left;
+    justify-content: center;
     margin: 20px;
     align-items: center;
+    background-color: tan;
+    width: 30%;
+    border: solid black 1px;
+    border-radius: 5px;
+
 }
 
 .form-group {
     margin-right: 20px;
+}
+
+.bear-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: 20px;
+    flex-shrink: 50;
+}
+
+.form--text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text {
+    text-align: center;
+    font-weight: bold;
 }
